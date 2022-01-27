@@ -32,9 +32,9 @@
     "bugs": {
         "url": "https://github.com/moment/moment/issues"
     },
-    "licenses" : [
+    "licenses": [
         {
-            "type" : "MIT"
+            "type": "MIT"
         }
     ],
     "devDependencies": {
@@ -54,14 +54,17 @@
         "karma-firefox-launcher": "latest",
         "karma-nodeunit": "~0.1.1",
         "karma-sauce-launcher": "~0.1"
-  },
+    },
     "scripts": {
         "test": "grunt test:node"
     },
     "ender": "./ender.js",
     "dojoBuild": "package.js",
     "jspm": {
-        "files": ["moment.js", "lang"],
+        "files": [
+            "moment.js",
+            "lang"
+        ],
         "map": {
             "moment": "./moment"
         },
